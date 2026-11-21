@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en-IN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Jitendra Plastic | Dahisar East, Mumbai</title>
+<meta name="theme-color" content="#14407A">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%2314407A'/><text x='50' y='68' font-size='56' text-anchor='middle' fill='%23F2B632'>J</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F6F3EC;--card:#FBF9F4;--ink:#1F2428;--blue:#14407A;--blue2:#1F6FB5;--sun:#F2B632;--wa:#1E9E55;--line:#D9D3C4;--tint:#E4ECF6}
+*{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'DM Sans',sans-serif;background:var(--bg);color:var(--ink);line-height:1.5;font-size:16px;padding-bottom:calc(84px + env(safe-area-inset-bottom,0px))}
+a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;padding:12px 16px;border-radius:10px;font-weight:700;border:2px solid var(--blue);color:var(--blue);background:#fff;cursor:pointer}
+.btn.pri{background:var(--blue);color:#fff}.btn.wa{background:var(--wa);border-color:var(--wa);color:#fff}
+:focus-visible{outline:3px solid var(--sun);outline-offset:2px}
+header{position:sticky;top:0;z-index:50;background:var(--blue);color:#fff;padding:env(safe-area-inset-top,0px) 14px 10px}
+.hrow{display:flex;align-items:center;gap:12px;height:56px}
+.brand{font-family:'DM Serif Display',serif;font-size:24px;flex:1;display:flex;align-items:center;gap:10px}
+.brand i{width:34px;height:34px;border-radius:9px;background:var(--sun);color:var(--blue);display:grid;place-items:center;font-style:normal}
+.cb{position:relative;color:#fff;background:none;border:0;font-size:26px;cursor:pointer;padding:4px 8px}
+.cb b{position:absolute;top:-2px;right:0;background:#E5392F;color:#fff;border-radius:50%;min-width:20px;height:20px;font-size:12px;display:grid;place-items:center}
+.back{background:none;border:0;color:#fff;font-size:26px;cursor:pointer;display:none}
+#q{width:100%;padding:10px 14px;border-radius:10px;border:0;background:#fff}
+.wrap{max-width:900px;margin:0 auto;padding:14px}
+.pgrid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}
+@media(min-width:640px){.pgrid{grid-template-columns:repeat(3,1fr)}}
+.pc{background:var(--card);border:1px solid var(--line);border-radius:12px;overflow:hidden;display:flex;flex-direction:column;cursor:pointer}
+.pc img,.ph{width:100%;aspect-ratio:1/1;object-fit:cover;background:var(--tint)}
+.ph{display:grid;place-items:center;color:var(--blue2);font-weight:700;border:2px dashed var(--blue2);text-align:center;padding:8px;font-size:14px}
+.pc .in{padding:10px}.pc h3{font-size:15.5px;font-weight:500;line-height:1.35}
+.pr{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap}.pr b{font-size:21px}.pr s{color:#777;font-size:14px}.pr em{color:var(--wa);font-style:normal;font-weight:700;font-size:14px}
+.ask{color:var(--blue2);font-weight:700;font-size:14px}
+.note{color:#555;padding:20px 4px}
+.gal{background:#fff;border-radius:12px;overflow:hidden}
+.gal>img,.gal>.ph{width:100%;max-height:520px;aspect-ratio:1/1;object-fit:cover}
+.th{display:flex;gap:8px;padding:10px;overflow-x:auto}
+.th img{width:64px;height:64px;object-fit:cover;border-radius:8px;border:2px solid var(--line);cursor:pointer}
+.th img.on{border-color:var(--blue)}
+.dt h1{font-size:23px;font-weight:700;line-height:1.3;margin:14px 0 4px}
+.dt .tag{color:#555}.dt .pr b{font-size:32px}
+.badge{display:flex;gap:10px;align-items:center;background:var(--tint);color:var(--blue);padding:12px 14px;border-radius:10px;font-weight:700;margin:14px 0}
+.box{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:16px;margin-bottom:14px}
+.box h2{font-size:18px;margin-bottom:8px;color:var(--blue)}
+.kv{display:grid;grid-template-columns:1fr 1.3fr;gap:6px 12px}.kv span:nth-child(odd){color:#555}
+.qty{display:flex;gap:8px;align-items:center}
+.qty button{width:38px;height:38px;border-radius:50%;border:2px solid var(--blue);background:#fff;font-size:20px;color:var(--blue);cursor:pointer}
+.qty input{width:60px;text-align:center;padding:7px;border:1px solid var(--line);border-radius:8px;background:#fff}
+.pbar{position:fixed;left:0;right:0;bottom:0;z-index:60;background:#fff;border-top:1px solid var(--line);padding:10px 10px calc(10px + env(safe-area-inset-bottom,0px));display:flex;gap:8px}
+.pbar>*{flex:1;padding:12px 6px;font-size:14.5px}
+.ci{display:flex;gap:12px;align-items:center;padding:10px 0;border-bottom:1px solid var(--line)}
+.ci img{width:64px;height:64px;object-fit:cover;border-radius:8px;background:var(--tint)}.ci>div{flex:1}
+.fld{width:100%;padding:11px;border:1px solid var(--line);border-radius:8px;background:#fff;margin-bottom:10px}
+.adm{background:var(--tint);border:2px dashed var(--blue);border-radius:12px;padding:16px;margin:0 0 14px;display:grid;gap:8px}
+.adm .fld{margin:0}.ow{display:flex;gap:8px;flex-wrap:wrap;margin:10px 0}.ow button{padding:8px 12px;border:1px solid var(--line);background:#fff;border-radius:8px;cursor:pointer}
+iframe{border:0;width:100%;height:260px;border-radius:12px}
+footer{text-align:center;padding:18px;font-size:14px;color:#555}.built{text-transform:lowercase;display:block}
+</style>
+</head>
+<body>
+<header>
+ <div class="hrow">
+  <button class="back" id="back" type="button" aria-label="Back">&#8592;</button>
+  <a class="brand" href="#"><i>J</i>Jitendra Plastic</a>
+  <button class="cb" id="cb" type="button" aria-label="Cart">&#128722;<b id="cn" hidden>0</b></button>
+ </div>
+ <input id="q" type="search" placeholder="Search products">
+</header>
+<div class="wrap">
+ <div id="adm" class="adm" hidden>
+  <b id="atitle">Owner panel: add a new product</b>
+  <small>Tap any "Add photo" box below to fill it in, or add a new product here.</small>
+  <input id="f" class="fld" type="file" accept="image/*" multiple>
+  <small>Choose up to 4 photos</small>
+  <input id="nm" class="fld" type="text" placeholder="Product name">
+  <input id="tg" class="fld" type="text" placeholder="Short line (e.g. Strong | Lightweight | Value for money)">
+  <input id="pr" class="fld" type="number" inputmode="numeric" min="0" placeholder="Price in ₹ (can be left empty)">
+  <input id="mrp" class="fld" type="number" inputmode="numeric" min="0" placeholder="MRP in ₹ (optional)">
+  <textarea id="dt" class="fld" rows="4" placeholder="Details, one per line, like:&#10;Material: Plastic&#10;Size: 10 inch&#10;Colours: Blue, Red"></textarea>
+  <button class="btn pri" id="addp" type="button">Add product</button>
+  <button class="btn" id="abt" type="button">Edit brand information</button>
+  <small id="st"></small>
+ </div>
+ <main id="app"></main>
+</div>
+<script id="pdata" type="application/json">{"a":"","p":[]}</script>
+<script>
+(function(){
+var S={a:'',p:[]};try{S=JSON.parse(document.getElementById('pdata').textContent)}catch(e){}
+if(!S.init){S.init=1;for(var k=1;k<=12;k++)S.p.push({id:'s'+k,n:'Product '+k,t:'',p:null,m:null,i:[],d:[],ph:1})}
+var C={},owner=false,art=null,E=null,$=function(i){return document.getElementById(i)};
+var WA='918452927120',ABOUT='Jitendra Plastic is a local shop in Rahul Pada, Dahisar East. We sell everyday plastic products at affordable prices.';
+function esc(t){return String(t==null?'':t).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/"/g,'&quot;')}
+function find(id){return S.p.filter(function(p){return p.id===id})[0]}
+function vis(){return S.p.filter(function(p){return owner||!p.ph})}
+function off(p){return p.p!=null&&p.m>p.p?Math.round((p.m-p.p)/p.m*100):0}
+function price(p){return p.p==null?'<span class="ask">Price: ask on WhatsApp</span>':'<div class="pr"><b>₹'+p.p+'</b>'+(off(p)?'<s>₹'+p.m+'</s><em>'+off(p)+'% OFF</em>':'')+'</div>'}
+function wa(m){return 'https://wa.me/'+WA+'?text='+encodeURIComponent(m)}
+function img(p){return p.i&&p.i[0]?'<img loading="lazy" src="'+p.i[0]+'" alt="'+esc(p.n)+'">':'<div class="ph">&#128247;<br>Add photo</div>'}
+function foot(){return '<div class="box"><h2>About the brand</h2><p>'+esc(S.a||ABOUT)+'</p></div><div class="box"><h2>Shop address</h2><p>Rahul Pada, Dahisar East, Mini Nagar, Mumbai, Maharashtra 400068<br>Monday to Saturday, 10 AM to 9 PM</p><p style="margin:12px 0"><a class="btn" href="tel:+918452927120">Call 84529 27120</a></p><iframe title="Map" loading="lazy" src="https://maps.google.com/maps?q=Rahul%20Pada%2C%20Dahisar%20East%2C%20Mini%20Nagar%2C%20Mumbai%2C%20Maharashtra%20400068&output=embed"></iframe></div><footer>&copy; '+new Date().getFullYear()+' Jitendra Plastic<span class="built">built with ❤️ by 21.coders</span></footer>'}
+function home(){
+ var q=($('q').value||'').toLowerCase(),h='',n=0;
+ vis().forEach(function(p){if(q&&p.n.toLowerCase().indexOf(q)<0)return;n++;
+  h+='<article class="pc" data-a="open" data-id="'+p.id+'">'+img(p)+'<div class="in"><h3>'+esc(p.n)+'</h3>'+(p.ph?'<span class="ask">Tap to fill details</span>':price(p))+'</div></article>'});
+ $('app').innerHTML=(n?'<div class="pgrid">'+h+'</div>':'<p class="note">'+(vis().length?'No products found.':'Products coming soon. Please ask us on WhatsApp.')+'</p>')+'<div style="margin-top:18px">'+foot()+'</div>'}
+function prod(p){
+ var th=p.i&&p.i.length>1?'<div class="th">'+p.i.map(function(s,k){return '<img data-a="img" class="'+(k?'':'on')+'" src="'+s+'" alt="">'}).join('')+'</div>':'';
+ var rows=(p.d||[]).map(function(r){return '<span>'+esc(r[0])+'</span><span>'+esc(r[1])+'</span>'}).join('');
+ $('app').innerHTML='<div class="gal">'+(p.i&&p.i[0]?'<img id="big" src="'+p.i[0]+'" alt="'+esc(p.n)+'">':'<div class="ph">&#128247;<br>Photo</div>')+th+'</div><div class="dt"><h1>'+esc(p.n)+'</h1><div class="tag">'+esc(p.t)+'</div>'+price(p)+
+ '<div class="badge">&#10003; Local shop in Dahisar East</div>'+
+ (owner?'<div class="ow"><button data-a="edit" data-id="'+p.id+'">Edit product</button><button data-a="del" data-id="'+p.id+'">Delete</button></div>':'')+
+ '<div class="box"><h2>Quantity</h2><div class="qty"><button data-a="bm">−</button><input id="bq" type="number" min="1" value="1"><button data-a="bp">+</button></div></div>'+
+ (rows?'<div class="box"><h2>Product details</h2><div class="kv">'+rows+'</div></div>':'')+
+ '<div class="box"><h2>About the brand</h2><p>'+esc(S.a||ABOUT)+'</p></div></div>'+
+ '<div class="pbar"><a class="btn" target="_blank" rel="noopener" href="'+wa('Hello Jitendra Plastic, I want to ask about '+p.n+'.')+'">Chat with Seller</a><button class="btn" data-a="add" data-id="'+p.id+'">Add to Cart</button><button class="btn pri" data-a="buy" data-id="'+p.id+'">Buy Now</button></div>'}
+function cart(){
+ var h='',t=0,miss=false,k=0,m='Hello Jitendra Plastic, my order:\n';
+ S.p.forEach(function(p){var q=C[p.id];if(!q)return;k++;if(p.p!=null)t+=p.p*q;else miss=true;
+  m+=k+'. '+p.n+' x '+q+(p.p!=null?' = ₹'+p.p*q:' (price to be confirmed)')+'\n';
+  h+='<div class="ci">'+(p.i&&p.i[0]?'<img src="'+p.i[0]+'" alt="">':'<div class="ph" style="width:64px;height:64px"></div>')+'<div><div>'+esc(p.n)+'</div><b>'+(p.p!=null?'₹'+p.p:'Ask price')+'</b></div><div class="qty"><button data-a="m" data-id="'+p.id+'">−</button><input type="number" min="1" value="'+q+'" data-a="q" data-id="'+p.id+'"><button data-a="p" data-id="'+p.id+'">+</button></div></div>'});
+ m+='Total: ₹'+t+(miss?' + price of remaining items to be confirmed':'');
+ if(!k){$('app').innerHTML='<h2 style="margin:6px 0">Your cart</h2><p class="note">Your cart is empty.</p>';return}
+ $('app').innerHTML='<h2 style="margin:6px 0">Your cart</h2><div class="box">'+h+'<p style="font-weight:700;font-size:20px;margin-top:12px">Total: ₹'+t+(miss?' + some prices to confirm':'')+'</p></div><div class="box"><h2>Delivery details (optional)</h2><input id="cname" class="fld" placeholder="Your name"><input id="caddr" class="fld" placeholder="Address / area"></div><a id="send" class="btn wa" style="width:100%" target="_blank" rel="noopener" href="'+wa(m)+'" data-m="'+esc(m)+'">Send order on WhatsApp</a>'}
+function badge(){var n=0;for(var k in C)n+=C[k];$('cn').textContent=n;$('cn').hidden=!n}
+function route(){
+ var h=location.hash.slice(1),p=find(h);
+ $('back').style.display=h?'block':'none';$('q').style.display=h?'none':'block';$('adm').hidden=!(owner&&!h);
+ if(h==='cart')cart();else if(p&&(owner||!p.ph))prod(p);else home();
+ badge();window.scrollTo(0,0)}
+function setQ(id,q){q=Math.max(0,Math.floor(q)||0);if(q)C[id]=q;else delete C[id];badge();if(location.hash==='#cart')cart()}
+function edit(p){E=p.id;location.hash='';
+ $('nm').value=p.ph?'':p.n;$('tg').value=p.t||'';$('pr').value=p.p==null?'':p.p;$('mrp').value=p.m==null?'':p.m;
+ $('dt').value=(p.d||[]).map(function(r){return r[0]+': '+r[1]}).join('\n');$('f').value='';
+ $('addp').textContent='Save product';$('atitle').textContent='Editing: '+(p.ph?'empty slot':p.n);
+ $('adm').scrollIntoView({behavior:'smooth'})}
+async function save(){
+ $('st').textContent='Saving…';
+ var c=document.documentElement.cloneNode(true);
+ c.querySelector('#app').innerHTML='';c.querySelector('#adm').setAttribute('hidden','');
+ c.querySelector('#cn').setAttribute('hidden','');c.querySelector('#st').textContent='';
+ c.querySelector('#pdata').textContent=JSON.stringify(S).replace(/</g,'\\u003c');
+ try{await art.publish('<!DOCTYPE html>\n'+c.outerHTML)}catch(e){$('st').textContent='Could not save: '+(e&&(e.code||e.message)||'')}}
+function shrink(file){return new Promise(function(ok,no){var im=new Image(),u=URL.createObjectURL(file);
+ im.onload=function(){var r=Math.min(1,640/Math.max(im.width,im.height)),cv=document.createElement('canvas');
+ cv.width=Math.round(im.width*r);cv.height=Math.round(im.height*r);cv.getContext('2d').drawImage(im,0,0,cv.width,cv.height);
+ URL.revokeObjectURL(u);ok(cv.toDataURL('image/jpeg',.72))};im.onerror=no;im.src=u})}
+document.addEventListener('click',async function(e){
+ var t=e.target.closest('[data-a]'),id=t&&t.dataset.id,p=id&&find(id),a=t&&t.dataset.a;
+ if(a==='open'){if(owner&&p.ph)edit(p);else location.hash=id}
+ if(a==='img'){$('big').src=t.src;document.querySelectorAll('.th img').forEach(function(x){x.className=x===t?'on':''})}
+ if(a==='bp'||a==='bm'){var v=$('bq');v.value=Math.max(1,(+v.value||1)+(a==='bp'?1:-1))}
+ if(a==='add'||a==='buy'){var n=Math.max(1,Math.floor(+$('bq').value)||1);C[id]=(C[id]||0)+n;badge();if(a==='buy')location.hash='cart';else t.textContent='Added ✓'}
+ if(a==='p')setQ(id,(C[id]||0)+1);if(a==='m')setQ(id,(C[id]||0)-1);
+ if(owner&&a==='edit')edit(p);
+ if(owner&&a==='del'&&confirm('Delete this product?')){S.p=S.p.filter(function(x){return x.id!==id});location.hash='';save()}
+ if(e.target.id==='cb')location.hash='cart';
+ if(e.target.id==='back')history.length>1?history.back():location.hash='';
+ if(e.target.id==='abt'){var v=prompt('Write about your brand',S.a||ABOUT);if(v!==null){S.a=v.trim();save()}}
+ if(e.target.id==='addp'){
+  var nm=$('nm').value.trim();if(!nm){$('st').textContent='Please enter the product name first.';return}
+  var im=[],fs=Array.prototype.slice.call($('f').files,0,4);
+  try{for(var k=0;k<fs.length;k++)im.push(await shrink(fs[k]))}catch(x){$('st').textContent='Could not open the photo.';return}
+  var pr=$('pr').value.trim(),mr=$('mrp').value.trim();
+  var d=$('dt').value.split('\n').map(function(l){var j=l.indexOf(':');return j>0?[l.slice(0,j).trim(),l.slice(j+1).trim()]:null}).filter(Boolean);
+  var o=E&&find(E);
+  if(o){o.n=nm;o.t=$('tg').value.trim();o.p=pr===''?null:+pr;o.m=mr===''?null:+mr;o.d=d;if(im.length)o.i=im;delete o.ph}
+  else S.p.unshift({id:'p'+Date.now(),n:nm,t:$('tg').value.trim(),p:pr===''?null:+pr,m:mr===''?null:+mr,i:im,d:d});
+  save()}
+});
+document.addEventListener('change',function(e){var t=e.target;if(t.dataset&&t.dataset.a==='q')setQ(t.dataset.id,+t.value);
+ if(t.id==='cname'||t.id==='caddr'){var s=$('send');s.href=wa(s.dataset.m+'\nName: '+$('cname').value+'\nAddress: '+$('caddr').value)}});
+$('q').addEventListener('input',function(){if(!location.hash)home()});
+window.addEventListener('hashchange',route);
+route();
+if(window.claude){Promise.all([claude.use('user'),claude.use('artifact')]).then(async function(r){
+ var u=r[0];art=r[1];if(!u||!art)return;owner=!!(await u.isOwner());if(owner)route()}).catch(function(){})}
+})();
+</script>
+</body>
+</html>
